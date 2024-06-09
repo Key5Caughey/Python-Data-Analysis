@@ -13,4 +13,3 @@ Created python file to read election data csv and perform following anlaysis:
 Total number of votes cast, a list of all candidates, percentage of votes for each candidate,
 total number of votes each candidate recieved, winner of election. Created a text file to store results.
 
-
