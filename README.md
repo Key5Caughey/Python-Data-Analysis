@@ -1,10 +1,9 @@
 # Python Challenge 3
 
 ## Tools and Techniques
-
-## Python, VS Code, Terminal
-### Downloaded and Read in files from csv format 
-### Analyzed data,Stored results in text file
+- Python, VS Code, Terminal ##
+- Downloaded and Read in files from csv format 
+- Analyzed data,Stored results in text file
 
 ### PyBank file
 Created python file to read budget data csv file and perform the following analysis:
