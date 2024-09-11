@@ -19,3 +19,4 @@ Created python file to read election data csv and perform following anlaysis:
 Total number of votes cast, a list of all candidates, percentage of votes for each candidate,
 total number of votes each candidate recieved, winner of election. Created a text file to store results.
 
+![Vote_counting](https://github.com/user-attachments/assets/4a419b4e-8cce-418a-b8d7-f50455d0e6f1)
