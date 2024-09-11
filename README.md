@@ -1,7 +1,7 @@
 # Python Challenge 3
 
 ## Tools and Techniques
-- Python, VS Code, Terminal ##
+- Python, VS Code, Terminal 
 - Downloaded and Read in files from csv format 
 - Analyzed data,Stored results in text file
 
@@ -11,6 +11,7 @@ Total number of months in dataset, calculate total amount of profit/loss for dat
 average of profit/loss for dataset, greatest increase in profits with date, greatest decrease
 in profits with date. Created a text file to store results.
 
+![revenue-per-lead](https://github.com/user-attachments/assets/45eb386b-9bcd-4417-b5e4-c475a3d299e5)
 
 
 ### PyPoll file 
