@@ -1,24 +1,26 @@
 
-#read data from csv file budget_data.csv
-import os  #to create path
-import csv 
-#storing path in variable
+# using modules from python libraries 
+import os  # to create path
+import csv  # to read csv
+
+# storing path to csv data in variable input_file
 input_file = "./Resources/election_data.csv"
-#creating name for text file
+# creating name for text file, storing it in output_file variable
 output_file = "analysis.txt"
 
-# setting up variables
-total_votes = 0
-candidate_options = []
-candidate_votes = {}
+# setting up variables for program 
+total_votes = 0           # variable to hold votes , counter set to 0, integer
+candidate_options = []    # variable to hold candidates in a list []
+candidate_votes = {}      # variable to hold candidate votes in dictionary {}
 
-winning_candidate = ""
-winning_count = 0
+winning_candidate = ""    # variable to hold winning candidate in string ""
+winning_count = 0         # variable to hold winnig count  , counter set to 0, interger
 
-#reading file ,skipping header
-with open(input_file,"r") as file:
-    reader = csv.reader(file)
-    header = next(reader)
+# with statement ensures file is closed after read 
+# open function opens the input_file(has the path to csv file), in "r" read mode
+with open(input_file,"r") as file:  # as file 
+    reader = csv.reader(file)  # reading csv file 
+    header = next(reader)       #skips header
 
 # looping through rows
     for row in reader:

@@ -55,19 +55,21 @@ net_monthly_avg = sum(net_change_list) / len(net_change_list)
 output = (
     
     f"Financial Analysis\n"
-    f"--------------------------------------\n\n"
-    f"Total Month: {total_months}\n"
+    f"--------------------------------------\n\n" # \n is new line character anything after this 
+    f"Total Month: {total_months}\n"              # will appear on the next line,\n,\n skips 2 lines
     f"Total Net: ${total_net} \n"
     f"Average Change: ${net_monthly_avg:.2f}\n"
     f"Greatest Inc: {greatest_inc[0]} (${greatest_inc[1]})\n"
     f"Greatest Decrease: {greatest_dec[0]} (${greatest_dec[1]})\n\n"
     f"--------------------------------------"
 )
-#printing the results to terminal
+#printing the results to terminal using output variable 
 print(output)
 
-# storing output in text file analysis.txt
+# storing output in text file analysis.txt output_file was named analysis.txt in begining of program
+# open function opens file(analysis.txt) "w"argument means file will opened in write mode
+
 with open(output_file, "w") as txt_file:
-    txt_file.write(output)
+    txt_file.write(output) # this writes the info in output variable into txt.file 
 
 
